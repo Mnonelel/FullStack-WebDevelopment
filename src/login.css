@@ -1,0 +1,76 @@
+.login-container {
+  background: linear-gradient(135deg, #002fff 0%, #94a6e2 100%);
+  min-height: 100vh;
+}
+
+.login-card {
+  border: none;
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.95);
+}
+
+.custom-tabs .nav-link {
+  border: none !important;
+  background: transparent !important;
+  color: #6c757d !important;
+  font-weight: 500;
+  padding: 1rem 1.5rem;
+  transition: all 0.3s ease;
+}
+
+.custom-tabs .nav-link.active {
+  color: #0d6efd !important;
+  border-bottom: 3px solid #0d6efd !important;
+  background: transparent !important;
+}
+
+.custom-tabs .nav-link:hover {
+  color: #0d6efd !important;
+  background: rgba(13, 110, 253, 0.1) !important;
+}
+
+.form-control:focus {
+  border-color: #0d6efd;
+  box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.25);
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, #e6ae46 0%, #ec7d15 100%);
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.btn-success {
+  background: linear-gradient(135deg, #fa9004 0%, #e99426 100%);
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.btn-success:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .login-card {
+    margin: 1rem;
+  }
+  
+  .custom-tabs .nav-link {
+    padding: 0.75rem 1rem;
+    font-size: 0.9rem;
+  }
+}
+.fw-bold text-primary{
+    color: #e4973f;
+}
+h2{
+    color: #8b5a22;
+}
